@@ -2,12 +2,12 @@
 {
     public interface TeamFactory
     {
-        public IGoalkeeper CreateGoalkeeper();
+        public IPlayer CreateGoalkeeper();
 
-        public IDefender CreateDefender();
+        public IPlayer CreateDefender();
 
-        public IMidfielder CreateMidfielder();
+        public IPlayer CreateMidfielder();
 
-        public IForward CreateForward();
+        public IPlayer CreateForward();
     }
 }
