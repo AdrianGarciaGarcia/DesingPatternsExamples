@@ -19,3 +19,9 @@ builder.WithPosition(PlayerPosition.Striker);
 var player2 = builder.GetPlayer();
 Console.WriteLine(player2.ToString());
 
+Console.WriteLine("Start Builder V2");
+
+var builderV2 = new PlayerBuilderV2();
+var player3 = builderV2.WithName("Tobias Max").WithPosition(PlayerPosition.CentralDefender).Build();
+Console.WriteLine(player3.ToString());
+
